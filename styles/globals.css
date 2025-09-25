@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(135deg, #18131d 0%, #2b2232 100%);
+  color: #f5e6fa;
+  font-family: 'Cinzel', serif;
+  min-height: 100vh;
+  margin: 0;
+}
+a {
+  color: #b993d6;
+  text-decoration: none;
+}
+header, footer {
+  background: #201629;
+  border-bottom: 2px solid #b993d6;
+  padding: 1rem;
+}
+button {
+  background: #b993d6;
+  color: #201629;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #8e44ad;
+}
